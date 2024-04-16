@@ -1,0 +1,17 @@
+POST http://localhost:3333/events
+Content-Type: application/json
+
+{
+  "title": "NLW Unite2",
+  "details": "Um evento para quem é apaixonado por programação",
+  "maximumAttendees": 100
+}
+
+###
+POST http://localhost:3333/events/e43890b3-0804-42a0-b870-0891f22f7a02/attendees
+Content-Type: application/json
+
+{
+  "name": "Beatriz Medeiros",
+  "email": "beaml90@hotmail.com"
+}
